@@ -15,7 +15,7 @@ const AboutCard = () => {
           <div className="right row">
            <Title subtitle='learn anything' title='learn best from best institute' />
            <div className="items">{homeAbout.map((val)=>(
-            <div className="items box">
+            <div className="item box">
               <div className="img">
                 <img src={val.cover} />
               </div>

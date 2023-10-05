@@ -114,7 +114,7 @@ p{
 
 .back {
   /* background-image: url('../../../../public/images/Java\ Image.jpg'); */
-  background-color: rgb(121, 161, 161);
+  background-color: rgb(50, 59, 59);
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -137,5 +137,24 @@ p{
   font-size: 18px;
 }
 .margin{
-  margin-top: 40.3%;
+  margin-top: 34.5%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.flex{
+  display: flex ;
+}
+
+@media screen and (max-width:768px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .back {
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
 }

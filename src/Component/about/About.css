@@ -18,7 +18,7 @@
   }
   .aboutHome .item {
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 20px;
     transition: 0.5s;
   }
@@ -47,14 +47,15 @@
   }
   /*----------awrapper------------*/
   .awrapper {
-    /* background-image: url("../../../public/images/awrapper.webp"); */
+    /* background-image: url("../../../public/images/coursesdetails2.jpg"); */
+    background-color: rgb(113, 98, 128);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 30vh;
     color: #fff;
   }
-  .awrapper .itembox {
+  .awrapper .boxx {
     padding: 70px 0;
   }
   .awrapper img {
@@ -69,6 +70,9 @@
   }
   /*----------awrapper------------*/
   @media screen and (max-width: 768px) {
+    .aboutHome{
+      margin-top: 15%;
+    }
     .aboutHome .container {
       flex-direction: column-reverse;
     }
@@ -76,6 +80,6 @@
       width: 100%;
     }
     .awrapper {
-      height: 50vh;
+      height: 20vh;
     }
-  }
+  }   
