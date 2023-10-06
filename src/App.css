@@ -252,7 +252,8 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back.webp");
+  /* background-image: url("../public/images/back.webp"); */
+  background-color: rgb(50, 59, 59);
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
